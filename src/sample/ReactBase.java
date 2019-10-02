@@ -154,6 +154,7 @@ public class ReactBase implements Initializable {
                     Menu.skore.get(nastav).setScore(result);
                 if(result<Menu.skore.get(nastav).getScore()) {
                     Menu.skore.get(nastav).setScore(result);
+
                 }
 
                 ukazSkore();
@@ -271,8 +272,7 @@ public class ReactBase implements Initializable {
         }
     }
 
-    @FXML
-    private void openMenu() {
+    private void ulozTo() {
         try {
             BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\skola\\opro\\reakčna doba\\src\\sample\\Tabulka.txt"));
             for (int i=0;i<Menu.skore.size();i++) {
@@ -289,6 +289,11 @@ public class ReactBase implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @FXML
+    private void openMenu() {
+        ulozTo();
         try {
             loader = new FXMLLoader(getClass().getClassLoader().getResource("sample/menu.fxml"));
             Stage stage = (Stage) scoreLabel.getScene().getWindow();

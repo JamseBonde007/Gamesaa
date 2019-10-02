@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abda42d1-652e-4ab5-897a-3f3f73d4f4f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Top.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/menu.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/top.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/uvod.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ReactBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ReactBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Tabulka.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Tabulka.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="8" />
-          <entry key="java" value="2328" />
+          <entry key="java" value="2359" />
           <entry key="txt" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2328" />
+          <entry key="JAVA" value="2359" />
           <entry key="PLAIN_TEXT" value="124" />
           <entry key="XML" value="8" />
         </counts>
@@ -111,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/ReactBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="95" column="74" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
+            <state relative-caret-position="194">
+              <caret line="295" column="17" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3005#3006#0" expanded="true" />
@@ -127,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Tabulka.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -216,8 +213,8 @@
         <option value="$PROJECT_DIR$/src/sample/Menu.java" />
         <option value="$PROJECT_DIR$/src/sample/Score.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/ReactBase.java" />
         <option value="$PROJECT_DIR$/src/sample/Tabulka.txt" />
+        <option value="$PROJECT_DIR$/src/sample/ReactBase.java" />
       </list>
     </option>
   </component>
@@ -259,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569975063032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569975753592" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RunDashboard">
@@ -484,10 +481,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Tabulka.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ReactBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="95" column="74" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
+        <state relative-caret-position="194">
+          <caret line="295" column="17" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3005#3006#0" expanded="true" />
@@ -495,13 +499,6 @@
             <element signature="e#7709#7710#0" expanded="true" />
             <element signature="e#7739#7740#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Tabulka.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
