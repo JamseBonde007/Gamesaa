@@ -1,11 +1,2 @@
-fero|-1.0
-ddd|-1.0
-Mato|-1.0
-cigadn|125.0
-bhjb|398.0
-sdsc|402.0
-xcscs|416.0
-adolf|434.0
-Masvrtin|461.0
-renec|501.0
-jadsro|598.2
+Mochnac|318.0
+Samo|331.0

@@ -114,6 +114,7 @@ public class ReactBase implements Initializable {
             }
         }
     }
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -150,14 +151,18 @@ public class ReactBase implements Initializable {
                 currTime = System.currentTimeMillis();
                 double result = currTime-startTime;
                 scoreLabel.setText(Double.toString(result));
-                if (Menu.skore.get(nastav).getScore()==-1)
+                if (Menu.skore.get(nastav).getScore()==-1) {
                     Menu.skore.get(nastav).setScore(result);
+                    ukazSkore();
+                }
                 if(result<Menu.skore.get(nastav).getScore()) {
                     Menu.skore.get(nastav).setScore(result);
+                    ukazSkore();
+                    ulozTo();
 
                 }
 
-                ukazSkore();
+
                 }
         };
 

@@ -116,7 +116,7 @@ public class Menu implements Initializable {
     }
     @FXML
     private void konec(){
-
+        System.exit(0);
 
     }
 }

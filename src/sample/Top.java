@@ -42,28 +42,28 @@ public class Top implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
 
+    if(Menu.skore.get(Menu.skore.size()-1).getScore()!=-1) {
+        int p = 0;
+        if (Menu.skore.size() < 10) {
+            p = Menu.skore.size();
+        } else
+            p = 10;
 
-        int p=0;
-        if (Menu.skore.size()<10){
-             p=Menu.skore.size();
-        }
-        else
-            p=10;
-
-        int c=1;
-        for (int i=0;i<p;i++){
-            if(Menu.skore.get(i).getScore()>0) {
+        int c = 1;
+        for (int i = 0; i < p; i++) {
+            if (Menu.skore.get(i).getScore() > 0) {
                 P = P + (c) + "\n";
                 S = S + Menu.skore.get(i).getScore() + "\n";
                 M = M + Menu.skore.get(i).getMeno() + "\n";
                 c++;
-            }
+            } else p++;
 
         }
 
         topM.setText(M);
         topP.setText(P);
         topS.setText(S);
+    }
 
     }
 
