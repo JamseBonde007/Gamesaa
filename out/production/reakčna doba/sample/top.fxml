@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="291.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Top">
+   <children>
+      <Button fx:id="nazatB" layoutX="-4.0" layoutY="-4.0" mnemonicParsing="false" onAction="#openMenu" prefHeight="35.0" prefWidth="34.0" text="&lt;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="topP" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="33.0" layoutY="61.0" prefHeight="230.0" prefWidth="75.0" textOverrun="CENTER_WORD_ELLIPSIS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="213.0" AnchorPane.topAnchor="61.0" />
+      <Label layoutX="126.0" layoutY="21.0" prefHeight="27.0" prefWidth="67.0" text="TOP 10">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="topM" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="96.0" layoutY="72.0" prefHeight="230.0" prefWidth="118.0" textOverrun="CENTER_WORD_ELLIPSIS" AnchorPane.bottomAnchor="0.0" />
+      <Label fx:id="topS" alignment="TOP_RIGHT" contentDisplay="CENTER" layoutX="213.0" layoutY="75.0" prefHeight="230.0" prefWidth="82.0" textOverrun="CENTER_WORD_ELLIPSIS" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="27.0" />
+   </children>
+</AnchorPane>
